@@ -28,7 +28,7 @@ li {
         color: white;
         margin: 15px;
         text-align: center;
-        vertical-align:middle;
+        vertical-align: middle;
         text-decoration: none;
         font-size: 19px;
     }
@@ -39,10 +39,12 @@ li {
     grid-row: 2;
     height: 300px;
 }
-    .grid-item-2{
-        background-image: url('images/tuscany-villas-sant-anna.jpg'); 
-        background-size: cover; 
+
+.grid-item-2 {
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
 }
+
 h1 {
     font-family: 'Cormorant Garamond', serif;
     color: white;
@@ -50,6 +52,7 @@ h1 {
     text-align: center;
     margin-top: 5px;
 }
+
 h2 {
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
@@ -68,9 +71,8 @@ h2 {
 .grid-item-4 {
     grid-column: 1/ span 12;
     grid-row: 3;
-    
     background-color: dimgray;
-    height:100px; 
+    height: 100px;
 }
 
 .vertical-menu {
@@ -88,10 +90,12 @@ h2 {
         padding: 10px;
         text-decoration: none;
     }
+
 .activetop {
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
 }
+
 .activebottom {
     font-family: 'Cormorant Garamond', serif;
     font-size: 16px;
@@ -103,12 +107,14 @@ h2 {
     background-color: white;
     height: 250px;
     margin: 60px;
-    color:gray;
+    color: gray;
 }
+
 .text1 {
     font-family: 'Cormorant Garamond', serif;
-    margin-top: 50px;
+    margin-top: 0px;
 }
+
 p1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
@@ -125,7 +131,7 @@ p1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 11px;
+    font-size: 15px;
     margin: 3px 1px;
     cursor: pointer;
 }
@@ -136,10 +142,9 @@ p1 {
     grid-row: 4;
     background-color: white;
     height: 250px;
-    
     background-image: url('images/italy-mountain-villa.jpeg');
     background-size: cover;
-    background-position:center;
+    background-position: center;
     margin: 40px;
 }
 
@@ -148,24 +153,27 @@ p1 {
     grid-row: 5;
     background-color: dimgray;
     height: 250px;
-    
-    }
+}
+
 #modern {
     object-fit: cover;
     object-position: center;
     margin: 40px;
 }
+
 .grid-item-8 {
     grid-column: 7/span 6;
     grid-row: 5;
     background-color: dimgray;
     height: 250px;
 }
+
 .text2 {
     font-family: 'Cormorant Garamond', serif;
     float: left;
     margin-top: 50px;
 }
+
 p3 {
     font-family: 'Cormorant Garamond', serif;
     color: white;
@@ -173,10 +181,12 @@ p3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 p4 {
     font-family: 'Cormorant Garamond', serif;
     color: white;
 }
+
 .button2 {
     font-family: 'Cormorant Garamond', serif;
     background-color: white;
@@ -186,7 +196,7 @@ p4 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 11px;
+    font-size: 15px;
     margin: 3px 1px;
     cursor: pointer;
 }
@@ -210,6 +220,7 @@ p4 {
     background-position: center;
     margin: 40px;
 }
+
 .text3 {
     font-family: 'Cormorant Garamond', serif;
     margin-top: 50px;
@@ -229,7 +240,7 @@ p5 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 11px;
+    font-size: 15px;
     margin: 3px 1px;
     cursor: pointer;
 }
@@ -268,7 +279,176 @@ p5 {
     font-size: 16px;
 }
 
+.grid-item-12 {
+    grid-row: 8;
+    grid-column: 1/span 4;
+    height: 250px;
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.b4 {
+    
+    
+    margin-top:25%;
+    text-align: center;
+    
+}
+
+.button4 {
+    margin-top:25%;
+    margin-right:25%;
+    margin-left:15%;
+    background-color: dimgray;
+    opacity: 0.55;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.grid-item-13 {
+    grid-row: 8;
+    grid-column: 5/span 4;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.texttext1 {
+    color: dimgray;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+pp1 {
+    font-size: 24px;
+}
+.button6 {
+    margin: 5px;
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+.grid-item-14 {
+    grid-row: 8;
+    grid-column: 9/span 4;
+    height: 250px;
+    background-image: url('images/42-348x348.jpg');
+    background-size: cover;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.b5 {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.button5 {
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 20%;
+    margin-bottom: 25%;
+    background-color: dimgray;
+    opacity: 0.55;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 .grid-item-15 {
+    grid-row: 9;
+    grid-column: 1/span 4;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.texttext2 {
+    color: dimgray;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+pp3 {
+    font-size: 24px;
+}
+
+.button7 {
+    margin: 5px;
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+.grid-item-16 {
+    grid-row: 9;
+    grid-column: 5/span 4;
+    height: 250px;
+    background-image: url('images/314-348x348.jpg');
+    background-size: cover;
+}
+
+.grid-item-17 {
+    grid-row: 9;
+    grid-column: 9/span 4;
+    height: 250px;
+  
+    margin-right:50px;
+}
+
+.texttext3 {
+    color: dimgray;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+pp5 {
+    font-size: 24px;
+}
+.button8 {
+    margin: 5px;
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.grid-item-21 {
     grid-column: 1/ span 12;
     grid-row: 11;
     background-color: dimgray;
@@ -301,7 +481,7 @@ p5 {
     font-size: 16px;
 }
 
-.grid-item-17{
+.grid-item-23 {
     grid-column: 1/ span 12;
     grid-row: 13;
     background-color: dimgray;
@@ -333,3 +513,5 @@ p5 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 16px;
 }
+
+
