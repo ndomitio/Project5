@@ -38,6 +38,7 @@ li {
     grid-column: 1/span 9;
     grid-row: 2;
     height: 300px;
+    
 }
 
 .grid-item-2 {
@@ -65,6 +66,7 @@ h2 {
     grid-column: 10/span 3;
     grid-row: 2;
     height: 300px;
+    
     background-image: url('images/Versilia.jpg');
 }
 
@@ -73,6 +75,7 @@ h2 {
     grid-row: 3;
     background-color: dimgray;
     height: 100px;
+    
 }
 
 .vertical-menu {
@@ -106,7 +109,8 @@ h2 {
     grid-row: 4;
     background-color: white;
     height: 250px;
-    margin: 60px;
+    margin-left: 60px;
+    margin-top: 55px;
     color: gray;
 }
 
@@ -145,7 +149,9 @@ p1 {
     background-image: url('images/italy-mountain-villa.jpeg');
     background-size: cover;
     background-position: center;
-    margin: 40px;
+    margin-top: 40px;
+    margin-right:60px;
+    margin-bottom:40px;
 }
 
 .grid-item-7 {
@@ -171,7 +177,7 @@ p1 {
 .text2 {
     font-family: 'Cormorant Garamond', serif;
     float: left;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 p3 {
@@ -206,7 +212,9 @@ p4 {
     grid-row: 6;
     background-color: white;
     height: 250px;
-    margin: 60px;
+    margin-left: 60px;
+    margin-top:40px;
+    margin-bottom:40px;
     color: gray;
 }
 
@@ -218,7 +226,9 @@ p4 {
     background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
     background-size: cover;
     background-position: center;
-    margin: 40px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
 }
 
 .text3 {
@@ -286,7 +296,7 @@ p5 {
     background-image: url('images/3b-348x348.jpg');
     background-size: cover;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .b4 {
@@ -298,7 +308,7 @@ p5 {
 }
 
 .button4 {
-    margin-top:25%;
+    
     margin-right:25%;
     margin-left:15%;
     background-color: dimgray;
@@ -317,7 +327,7 @@ p5 {
     grid-row: 8;
     grid-column: 5/span 4;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .texttext1 {
@@ -330,6 +340,9 @@ p5 {
 
 pp1 {
     font-size: 24px;
+}
+pp2{
+    font-size:12px;
 }
 .button6 {
     margin: 5px;
@@ -351,7 +364,7 @@ pp1 {
     background-image: url('images/42-348x348.jpg');
     background-size: cover;
     margin-top: 40px;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .b5 {
@@ -362,7 +375,7 @@ pp1 {
 .button5 {
     margin-left: 20%;
     margin-right:20%;
-    margin-top: 20%;
+    
     margin-bottom: 25%;
     background-color: dimgray;
     opacity: 0.55;
@@ -380,7 +393,8 @@ pp1 {
     grid-row: 9;
     grid-column: 1/span 4;
     height: 250px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left:60px;
 }
 
 .texttext2 {
@@ -393,6 +407,9 @@ pp1 {
 
 pp3 {
     font-size: 24px;
+}
+pp4 {
+    font-size: 12px;
 }
 
 .button7 {
@@ -419,8 +436,9 @@ pp3 {
     grid-row: 9;
     grid-column: 9/span 4;
     height: 250px;
-  
-    margin-right:50px;
+    
+    margin-top: 10px;
+    margin-right:60px;
 }
 
 .texttext3 {
@@ -434,21 +452,145 @@ pp3 {
 pp5 {
     font-size: 24px;
 }
-.button8 {
-    margin: 5px;
+pp6 {
+    font-size: 12px;
+}
+
+.b9 {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.button9 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 25%;
     background-color: dimgray;
+    opacity: 0.55;
     border: none;
     color: white;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.grid-item-19 {
+    grid-row: 10;
+    grid-column: 5/span 4;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.texttext4 {
+    color: dimgray;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+pp7 {
+    font-size: 24px;
+}
+
+.b10 {
+    
+    text-align: center;
+}
+
+.button10 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 25%;
+    background-color: dimgray;
+    
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.grid-item-18 {
+    
+    grid-row: 10;
+    grid-column: 1/span 4;
+    height: 250px;
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-top:-10px;
+}
+
+.b11 {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.button11 {
+    margin-right: 25%;
+    margin-left: 15%;
+    background-color: dimgray;
+    opacity: 0.55;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
     cursor: pointer;
 }
 
 .grid-item-21 {
+    grid-row: 10;
+    grid-column: 9/span 4;
+    height: 250px;
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    margin-top: -10px;
+}
+
+.b12 {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.button12 {
+    margin-right: 25%;
+    margin-left: 15%;
+    background-color: dimgray;
+    opacity: 0.55;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-item-22 {
     grid-column: 1/ span 12;
     grid-row: 11;
     background-color: dimgray;
