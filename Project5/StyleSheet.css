@@ -1,0 +1,335 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(25);
+}
+
+.grid-item-1 {
+    grid-column: 1/ span 12;
+    grid-row: 1;
+    background-color: dimgray;
+    height: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    height: 100%;
+    background-color: dimgray;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+li {
+    float: right;
+}
+
+    li a {
+        display: contents;
+        color: white;
+        margin: 15px;
+        text-align: center;
+        vertical-align:middle;
+        text-decoration: none;
+        font-size: 19px;
+    }
+
+
+.grid-item-2 {
+    grid-column: 1/span 9;
+    grid-row: 2;
+    height: 300px;
+}
+    .grid-item-2{
+        background-image: url('images/tuscany-villas-sant-anna.jpg'); 
+        background-size: cover; 
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin-top: -25px;
+    color: white;
+    font-size: 20px;
+}
+
+.grid-item-3 {
+    grid-column: 10/span 3;
+    grid-row: 2;
+    height: 300px;
+    background-image: url('images/Versilia.jpg');
+}
+
+.grid-item-4 {
+    grid-column: 1/ span 12;
+    grid-row: 3;
+    
+    background-color: dimgray;
+    height:100px; 
+}
+
+.vertical-menu {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vertical-menu a {
+        font-family: 'Cormorant Garamond', serif;
+        background-color: dimgray;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+.activetop {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+.activebottom {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+}
+
+.grid-item-5 {
+    grid-column: 1/span 6;
+    grid-row: 4;
+    background-color: white;
+    height: 250px;
+    margin: 60px;
+    color:gray;
+}
+.text1 {
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 50px;
+}
+p1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+
+
+.grid-item-6 {
+    grid-column: 7/span 6;
+    grid-row: 4;
+    background-color: white;
+    height: 250px;
+    
+    background-image: url('images/italy-mountain-villa.jpeg');
+    background-size: cover;
+    background-position:center;
+    margin: 40px;
+}
+
+.grid-item-7 {
+    grid-column: 1/ span 6;
+    grid-row: 5;
+    background-color: dimgray;
+    height: 250px;
+    
+    }
+#modern {
+    object-fit: cover;
+    object-position: center;
+    margin: 40px;
+}
+.grid-item-8 {
+    grid-column: 7/span 6;
+    grid-row: 5;
+    background-color: dimgray;
+    height: 250px;
+}
+.text2 {
+    font-family: 'Cormorant Garamond', serif;
+    float: left;
+    margin-top: 50px;
+}
+p3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+.button2 {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: white;
+    border: none;
+    color: dimgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+
+.grid-item-9 {
+    grid-column: 1/span 6;
+    grid-row: 6;
+    background-color: white;
+    height: 250px;
+    margin: 60px;
+    color: gray;
+}
+
+.grid-item-10 {
+    grid-column: 7/span 6;
+    grid-row: 6;
+    background-color: white;
+    height: 250px;
+    background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+}
+.text3 {
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 50px;
+}
+
+p5 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button3 {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+
+
+.grid-item-11 {
+    grid-column: 1/ span 12;
+    grid-row: 7;
+    background-color: dimgray;
+    height: 100px;
+}
+
+.vertical-menu2 {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vertical-menu2 a {
+        font-family: 'Cormorant Garamond', serif;
+        background-color: dimgray;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+.activetop2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+.activebottom2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+}
+
+.grid-item-15 {
+    grid-column: 1/ span 12;
+    grid-row: 11;
+    background-color: dimgray;
+    height: 100px;
+}
+
+.vertical-menu3 {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vertical-menu3 a {
+        font-family: 'Cormorant Garamond', serif;
+        background-color: dimgray;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+.activetop3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+.activebottom3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+}
+
+.grid-item-17{
+    grid-column: 1/ span 12;
+    grid-row: 13;
+    background-color: dimgray;
+    height: 100px;
+}
+
+.vertical-menu4 {
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vertical-menu4 a {
+        font-family: 'Cormorant Garamond', serif;
+        background-color: dimgray;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+.activetop4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+.activebottom4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+}
